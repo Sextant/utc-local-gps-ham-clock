@@ -15,7 +15,7 @@ Wi-Fi, NTP, cellular service, cloud APIs, or online geocoding.
 
 ## Current release
 
-**Firmware v12 (`GPSClock_v12_options_grid`)** is the first public release
+**`GPSClock_v12`** is the first public release
 candidate. It has been compiled and hardware-tested on an ESP32-2432S028 using
 ESP32 Arduino Core 3.3.11.
 
