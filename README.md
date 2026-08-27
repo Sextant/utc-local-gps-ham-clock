@@ -162,21 +162,33 @@ formats still need to be selected and validated.
 
 ## Project photos
 
-| View | Photo |
-|---|---|
-| Main clock, dark theme, 12-hour local time (lead image) | [View](images/gps-clock-lead-dark-theme.jpg) |
-| Main clock, dark theme, 24-hour local time | [View](images/main-clock-dark-theme-24-hour.jpg) |
-| Main clock, light theme, 12-hour local time | [View](images/main-clock-light-theme-12-hour.jpg) |
-| Main clock, light theme, 24-hour local time | [View](images/main-clock-light-theme-24-hour.jpg) |
-| Night-vision-safe red mode | [View](images/night-vision-safe-mode.jpg) |
-| Options, dark theme | [View](images/options-screen-dark-theme.jpg) |
-| Options, light theme | [View](images/options-screen-light-theme.jpg) |
-| Night Mode settings | [View](images/night-mode-settings-screen.jpg) |
-| Alarm settings | [View](images/alarm-settings-screen.jpg) |
-| Callsign editor | [View](images/callsign-editor-screen.jpg) |
-| Manual date/time screen | [View](images/manual-date-time-screen.jpg) |
-| CYD rear board and GPS wiring | [View](images/cyd-rear-board-and-gps-wiring.jpg) |
-| GP-02 GPS module wiring | [View](images/gp-02-gps-module-wiring.jpg) |
+<table>
+  <tr>
+    <td align="center"><strong>Main clock, dark theme, 12-hour local time</strong><br><a href="images/gps-clock-lead-dark-theme.jpg"><img src="images/gps-clock-lead-dark-theme.jpg" width="240" alt="Main clock, dark theme, 12-hour local time"></a><br><a href="images/gps-clock-lead-dark-theme.jpg">View full-size</a></td>
+    <td align="center"><strong>Main clock, dark theme, 24-hour local time</strong><br><a href="images/main-clock-dark-theme-24-hour.jpg"><img src="images/main-clock-dark-theme-24-hour.jpg" width="240" alt="Main clock, dark theme, 24-hour local time"></a><br><a href="images/main-clock-dark-theme-24-hour.jpg">View full-size</a></td>
+    <td align="center"><strong>Main clock, light theme, 12-hour local time</strong><br><a href="images/main-clock-light-theme-12-hour.jpg"><img src="images/main-clock-light-theme-12-hour.jpg" width="240" alt="Main clock, light theme, 12-hour local time"></a><br><a href="images/main-clock-light-theme-12-hour.jpg">View full-size</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Main clock, light theme, 24-hour local time</strong><br><a href="images/main-clock-light-theme-24-hour.jpg"><img src="images/main-clock-light-theme-24-hour.jpg" width="240" alt="Main clock, light theme, 24-hour local time"></a><br><a href="images/main-clock-light-theme-24-hour.jpg">View full-size</a></td>
+    <td align="center"><strong>Night-vision-safe red mode</strong><br><a href="images/night-vision-safe-mode.jpg"><img src="images/night-vision-safe-mode.jpg" width="240" alt="Night-vision-safe red mode"></a><br><a href="images/night-vision-safe-mode.jpg">View full-size</a></td>
+    <td align="center"><strong>Options, dark theme</strong><br><a href="images/options-screen-dark-theme.jpg"><img src="images/options-screen-dark-theme.jpg" width="240" alt="Options screen, dark theme"></a><br><a href="images/options-screen-dark-theme.jpg">View full-size</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Options, light theme</strong><br><a href="images/options-screen-light-theme.jpg"><img src="images/options-screen-light-theme.jpg" width="240" alt="Options screen, light theme"></a><br><a href="images/options-screen-light-theme.jpg">View full-size</a></td>
+    <td align="center"><strong>Night Vision Mode settings</strong><br><a href="images/night-mode-settings-screen.jpg"><img src="images/night-mode-settings-screen.jpg" width="240" alt="Night Vision Mode settings screen"></a><br><a href="images/night-mode-settings-screen.jpg">View full-size</a></td>
+    <td align="center"><strong>Alarm settings</strong><br><a href="images/alarm-settings-screen.jpg"><img src="images/alarm-settings-screen.jpg" width="240" alt="Alarm settings screen"></a><br><a href="images/alarm-settings-screen.jpg">View full-size</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Callsign editor</strong><br><a href="images/callsign-editor-screen.jpg"><img src="images/callsign-editor-screen.jpg" width="240" alt="Callsign editor screen"></a><br><a href="images/callsign-editor-screen.jpg">View full-size</a></td>
+    <td align="center"><strong>Manual date/time screen</strong><br><a href="images/manual-date-time-screen.jpg"><img src="images/manual-date-time-screen.jpg" width="240" alt="Manual date and time screen"></a><br><a href="images/manual-date-time-screen.jpg">View full-size</a></td>
+    <td align="center"><strong>CYD rear board and GPS wiring</strong><br><a href="images/cyd-rear-board-and-gps-wiring.jpg"><img src="images/cyd-rear-board-and-gps-wiring.jpg" width="240" alt="CYD rear board and GPS wiring"></a><br><a href="images/cyd-rear-board-and-gps-wiring.jpg">View full-size</a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>GP-02 GPS module wiring</strong><br><a href="images/gp-02-gps-module-wiring.jpg"><img src="images/gp-02-gps-module-wiring.jpg" width="240" alt="GP-02 GPS module wiring"></a><br><a href="images/gp-02-gps-module-wiring.jpg">View full-size</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ## Tested software environment
 
