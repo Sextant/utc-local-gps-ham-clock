@@ -172,6 +172,68 @@ formats still need to be selected and validated.
 The verified v12 build uses 443,589 bytes of flash (33%) and 26,304 bytes of
 global memory (8%) with the `ESP32 Dev Module` board definition.
 
+## Credit Where Credit Is Due
+
+This project combines original firmware, interface design, database-building
+tools, documentation, and extensive hardware testing with important work that
+predates it. The following projects, standards, communities, and data providers
+made the clock possible.
+
+### Direct software foundations
+
+- [Arduino-ESP32](https://github.com/espressif/arduino-esp32) by Espressif
+  Systems provides the ESP32 Arduino core and the hardware, storage, serial,
+  timing, and preferences APIs used by the firmware.
+- [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) by Bodmer drives the ILI9341
+  display and supplies the sprite and font support used by the clock interface.
+- [XPT2046_Touchscreen](https://github.com/PaulStoffregen/XPT2046_Touchscreen)
+  by Paul Stoffregen reads the CYD resistive touchscreen.
+- [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus) by Mikal Hart parses
+  the GPS receiver's NMEA position, time, altitude, and satellite data.
+- The desktop database builders use
+  [Shapely](https://github.com/shapely/shapely),
+  [GEOS](https://libgeos.org/), [NumPy](https://numpy.org/),
+  [orjson](https://github.com/ijl/orjson),
+  [PyShp](https://github.com/GeospatialPython/pyshp), and
+  [tzdata](https://pypi.org/project/tzdata/). These packages are installed
+  separately and are not copied into this repository.
+
+### Offline data foundations
+
+- [Timezone Boundary Builder](https://github.com/evansiroky/timezone-boundary-builder)
+  and the [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+  provide the civil-timezone boundary data used to build the offline geographic
+  index.
+- The [IANA Time Zone Database](https://www.iana.org/time-zones) supplies the
+  UTC offsets, daylight-saving transitions, and abbreviations compiled into the
+  offline rules database.
+- [GeoNames](https://www.geonames.org/) supplies the worldwide populated-place
+  records used for nearby-place lookup.
+- [Natural Earth](https://www.naturalearthdata.com/) supplies the marine
+  geography used for ocean, sea, gulf, bay, and related area names.
+
+### Standards, hardware references, and inspiration
+
+- The six-character grid display implements the established
+  [Maidenhead Locator System](https://www.iaru-r1.org/wp-content/uploads/2019/12/IARURegion1HFManagerHandbook8.2.1.pdf),
+  devised by John Morris, G4ANB, and adopted by the amateur-radio community.
+- Brian Lough and contributors to the
+  [ESP32 Cheap Yellow Display community project](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display),
+  together with the
+  [Random Nerd Tutorials CYD reference](https://randomnerdtutorials.com/esp32-cheap-yellow-display-cyd-pinout-esp32-2432s028r/),
+  provided valuable prior documentation of CYD pin assignments, peripherals,
+  and board behavior.
+- The project was conceived, directed, assembled, and hardware-tested by Pete
+  Noto. Firmware, data-tooling, and documentation development was performed
+  collaboratively with assistance from OpenAI's ChatGPT and Codex.
+
+These acknowledgments identify direct dependencies, data sources, standards,
+and references; they do not imply endorsement by any upstream author or change
+the license of any upstream work. The project does not claim ownership of those
+works. Each retains its own copyright and license terms. See
+[Third-party software and data notices](docs/THIRD_PARTY_NOTICES.md) for the
+license details and redistribution requirements that accompany this project.
+
 ## Licensing
 
 Project-authored firmware, builder tools, configuration, and documentation are
