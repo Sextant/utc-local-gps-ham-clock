@@ -24,15 +24,10 @@ Reference-build sizes were approximately:
 | `places/places_index.bin` | 8.3 MB | GeoNames |
 | `marine/marine.bin` | 308 KB | Natural Earth |
 
-## GitHub distribution
+## Prepared data archive
 
-Do not commit `places.bin` to normal Git history. GitHub blocks ordinary repository objects above 100 MB. Instead, create a GitHub Release and attach a ZIP such as:
-
-`GPSClock_SD_Data_2026-08.zip`
-
-GitHub Releases support individual release assets up to 2 GiB, so the complete SD data package fits comfortably as one asset.
-
-The ZIP should contain:
+If a project release provides a prepared SD-data archive, extract it so it has
+this structure:
 
 ```text
 timezone/
@@ -42,9 +37,11 @@ DATA_LICENSES.txt
 DATA_VERSION.txt
 ```
 
-## Required data notice
+Otherwise, generate the files by following [Offline Database Build](../docs/DATA_BUILD.md).
 
-A release containing the generated databases should include a notice substantially like:
+## Data attribution
+
+If you redistribute the generated databases, include a notice substantially like:
 
 ```text
 TIMEZONE BOUNDARIES
@@ -71,5 +68,7 @@ https://www.naturalearthdata.com/
 
 ## Rebuilding data
 
-The PC-side builder scripts belong in `tools/`. Rebuilding from source is preferable when timezone or place datasets change. Keep source-data version information in `DATA_VERSION.txt` so users can tell how current a release asset is.
+The PC-side builder scripts are in `tools/`. Rebuilding from source is preferable
+when timezone or place datasets change. Keep source-data version information in
+`DATA_VERSION.txt` so the database age and provenance are clear.
 
