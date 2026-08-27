@@ -223,9 +223,6 @@ made the clock possible.
   [Random Nerd Tutorials CYD reference](https://randomnerdtutorials.com/esp32-cheap-yellow-display-cyd-pinout-esp32-2432s028r/),
   provided valuable prior documentation of CYD pin assignments, peripherals,
   and board behavior.
-- The project was conceived, directed, assembled, and hardware-tested by Pete
-  Noto. Firmware, data-tooling, and documentation development was performed
-  collaboratively with assistance from OpenAI's ChatGPT and Codex.
 
 These acknowledgments identify direct dependencies, data sources, standards,
 and references; they do not imply endorsement by any upstream author or change
