@@ -132,7 +132,7 @@ docs/                                Build, operation, licensing, and release do
 The required database files are distributed separately because `places.bin`
 exceeds GitHub's normal repository file-size limit. Download the matching
 SD-data package from the project's
-[GitHub Releases page](https://github.com/Sextant/offline-gps-ham-clock/releases)
+[GitHub Releases page](https://github.com/Sextant/utc-local-gps-ham-clock/releases)
 and copy its folders to the microSD card, or generate the files using the
 supplied database-building tools.
 
