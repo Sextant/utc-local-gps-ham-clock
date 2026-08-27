@@ -77,9 +77,9 @@ ESP32 Arduino Core 3.3.11.
 - Cached date and AM/PM fields to avoid once-per-second flicker.
 - Dark and light display themes.
 - Red/black Night Vision Mode with `AUTO`, `ON`, and `OFF` choices.
-- AUTO Night Mode uses the CYD R21 ambient-light sensor with hysteresis and a
-  five-confirmation filter; saved start/end times remain the invalid-sensor
-  fallback.
+- AUTO Night Vision Mode uses the CYD R21 ambient-light sensor with hysteresis
+  and a five-confirmation filter; saved start/end times remain the
+  invalid-sensor fallback.
 - Four persistent backlight levels: 25%, 50%, 75%, and 100%.
 - Touch-editable callsign supporting `A-Z`, `0-9`, and `/`.
 - Large two-column Options grid designed for resistive-touch accuracy.
