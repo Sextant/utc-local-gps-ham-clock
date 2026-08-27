@@ -75,7 +75,9 @@ The tested reference build uses:
 - ESP32-2432S028 CYD with ILI9341 display, XPT2046 touch, R21 light sensor,
   and onboard microSD slot.
 - GP-02 GPS/GNSS receiver with NMEA TX, PPS, and N/F control.
-- FAT32 microSD card; 8 GB is ample for the approximately 213 MB database set.
+- FAT32 microSD card with at least 512 MB usable capacity; 1 GB or larger is
+  recommended for comfortable free space. The current database set is about
+  213 MB.
 - Stable 5 V USB power and a data-capable USB cable for programming.
 
 See the [hardware BOM](docs/BOM.md) and
