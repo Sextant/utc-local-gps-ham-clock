@@ -1,0 +1,17 @@
+GPS Clock SD Data Version
+=========================
+Package version: YYYY-MM-DD
+
+Timezone Boundary Builder release: __________
+IANA tzdata release: __________
+GeoNames allCountries download date: __________
+Natural Earth marine polygons release: 5.1.0 (or update as applicable)
+
+Builder environment:
+Python: __________
+Shapely: __________
+orjson: __________
+NumPy: __________
+tzdata Python package: __________
+PyShp: __________
+

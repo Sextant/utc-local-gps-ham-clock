@@ -1,0 +1,36 @@
+# Generated SD-card data and packages
+output/
+*.bin
+GPSClock_SD_Data_*.zip
+
+# Downloaded source datasets
+source/
+*.geojson
+*.geojson.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+allCountries.txt
+allCountries.zip
+
+# Arduino build output and editor state
+build/
+.arduinoIDE/
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+

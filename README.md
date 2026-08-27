@@ -1,5 +1,7 @@
 # Offline GPS Ham Clock
 
+![Offline GPS Ham Clock showing UTC, local time, Maidenhead locator, location, and GPS status](images/gps-clock-lead-dark-theme.jpg)
+
 An internet-independent UTC and local-time clock built around the inexpensive
 ESP32-2432S028 2.8-inch touchscreen board, commonly called the Cheap Yellow
 Display or CYD. A GPS/GNSS receiver supplies UTC, position, altitude, satellite
@@ -119,6 +121,24 @@ ZIP as a GitHub Release asset or rebuild the databases using the supplied tools.
 3. Configure and upload the firmware using
    [Firmware build](docs/FIRMWARE_BUILD.md).
 4. Follow the [User guide](docs/USER_GUIDE.md) for first fix and operation.
+
+## Project photos
+
+| View | Photo |
+|---|---|
+| Main clock, dark theme, 12-hour local time (lead image) | [View](images/gps-clock-lead-dark-theme.jpg) |
+| Main clock, dark theme, 24-hour local time | [View](images/main-clock-dark-theme-24-hour.jpg) |
+| Main clock, light theme, 12-hour local time | [View](images/main-clock-light-theme-12-hour.jpg) |
+| Main clock, light theme, 24-hour local time | [View](images/main-clock-light-theme-24-hour.jpg) |
+| Night-vision-safe red mode | [View](images/night-vision-safe-mode.jpg) |
+| Options, dark theme | [View](images/options-screen-dark-theme.jpg) |
+| Options, light theme | [View](images/options-screen-light-theme.jpg) |
+| Night Mode settings | [View](images/night-mode-settings-screen.jpg) |
+| Alarm settings | [View](images/alarm-settings-screen.jpg) |
+| Callsign editor | [View](images/callsign-editor-screen.jpg) |
+| Manual date/time screen | [View](images/manual-date-time-screen.jpg) |
+| CYD rear board and GPS wiring | [View](images/cyd-rear-board-and-gps-wiring.jpg) |
+| GP-02 GPS module wiring | [View](images/gp-02-gps-module-wiring.jpg) |
 
 ## Tested software environment
 
