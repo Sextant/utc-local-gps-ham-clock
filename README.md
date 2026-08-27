@@ -42,6 +42,7 @@ ESP32 Arduino Core 3.3.11.
 
 - GPS-derived UTC with PPS-assisted clock synchronization.
 - UTC and local civil time displayed simultaneously.
+- Local time selectable in 12-hour or 24-hour format.
 - Automatic daylight-saving changes and UTC offsets from offline IANA rules.
 - Worldwide civil-timezone lookup from GPS coordinates.
 - Longitude-based nautical timezone fallback outside civil-timezone polygons.
