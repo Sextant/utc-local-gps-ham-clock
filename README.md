@@ -1,4 +1,4 @@
-# Offline GPS Ham Clock
+# Self-Setting UTC/Local Time Offline GPS Ham Clock
 
 ![Offline GPS Ham Clock showing UTC, local time, Maidenhead locator, location, and GPS status](images/gps-clock-lead-dark-theme.jpg)
 
