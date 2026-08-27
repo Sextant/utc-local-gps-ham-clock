@@ -1,4 +1,7 @@
-# GitHub Publishing Guide
+# Maintainer Publishing Guide
+
+This document is for the repository owner and anyone explicitly authorized to
+maintain releases. It is not part of the normal clock-building procedure.
 
 ## Repository metadata
 
