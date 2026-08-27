@@ -89,7 +89,8 @@ voltage in darkness.
 
 ## microSD preparation
 
-1. Use an 8 GB or larger card from a reliable manufacturer.
+1. Use a reliable card with at least 512 MB of usable capacity. A 1 GB or
+   larger card is recommended for comfortable free space; 8 GB is not required.
 2. Create one FAT32 partition. A useful volume label is `GPSCLOCK`.
 3. Create `timezone`, `places`, and `marine` folders at the card root.
 4. Copy the seven generated database files using the layout in
