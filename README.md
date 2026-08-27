@@ -129,9 +129,12 @@ docs/                                Build, operation, licensing, and release do
     └── marine.bin
 ```
 
-The generated files are not stored in normal Git history. `places.bin` alone is
-larger than GitHub's regular file limit. Publish a properly attributed SD-data
-ZIP as a GitHub Release asset or rebuild the databases using the supplied tools.
+The required database files are distributed separately because `places.bin`
+exceeds GitHub's normal repository file-size limit. Download the matching
+SD-data package from the project's
+[GitHub Releases page](https://github.com/Sextant/offline-gps-ham-clock/releases)
+and copy its folders to the microSD card, or generate the files using the
+supplied database-building tools.
 
 ## Build and use
 
