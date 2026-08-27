@@ -131,10 +131,13 @@ ZIP as a GitHub Release asset or rebuild the databases using the supplied tools.
 - Rechargeable battery operation for portable and backup use.
 - A compatible charging and power-management board for safely charging the
   battery and powering the clock.
+- Speaker support using the CYD's onboard audio amplifier, with alarm sounds
+  loaded from user-selectable audio files on the microSD card.
 
 These are planned enhancements and are not part of the tested v12 reference
 build. The battery type, charging board, protection, power-path arrangement,
-runtime, and enclosure design still need to be selected and validated.
+runtime, enclosure design, speaker specification, and supported audio-file
+formats still need to be selected and validated.
 
 ## Project photos
 
