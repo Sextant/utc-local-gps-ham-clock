@@ -10,7 +10,7 @@ of the exact boards received; products sold under the same names can vary.
 |---:|---|---|---|
 | 1 | ESP32-2432S028 CYD | ESP32-WROOM-32, 2.8-inch 320x240 ILI9341 TFT, XPT2046 resistive touch, onboard microSD and R21 light sensor | Obtain the common 28-pin CYD layout or compare every pin before wiring. |
 | 1 | GP-02 GPS/GNSS module | 3.3 V operation, NMEA TX, PPS, and N/F standby control | A substitute must have compatible voltage levels and documented enable behavior. |
-| 1 | microSD card | At least 512 MB usable, FAT32; 1 GB or larger recommended | The current data set is about 213 MB. An 8 GB card was used for testing but is not required. |
+| 1 | microSD card | At least 512 MB usable, FAT32; 1 GB or larger recommended | The current data set is about 213 MB. |
 | 1 | USB data cable | Connector matching the CYD | Must carry data for programming, not power only. |
 | 1 | Regulated 5 V USB supply | Suitable for ESP32, TFT backlight, GPS, and SD-card peaks | A marginal supply can cause resets or SD errors. |
 | 5 | Insulated hookup wires | Fine stranded or solid wire suitable for the chosen connectors | GPS: 3.3 V, GND, TX, PPS, and N/F. |
