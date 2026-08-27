@@ -1,7 +1,7 @@
 Category,Qty,Item,Tested specification,Required,Notes
 Electronics,1,ESP32-2432S028 CYD,"ESP32-WROOM-32; 2.8-inch 320x240 ILI9341 TFT; XPT2046 touch; onboard microSD and R21",Yes,Confirm the exact board revision and pin labels
 Electronics,1,GP-02 GPS/GNSS module,"3.3 V; NMEA TX; PPS; N/F standby-enable",Yes,"TX to GPIO22; PPS to GPIO35; N/F to GPIO27"
-Storage,1,microSD card,"8 GB or larger; FAT32",Yes,Approximately 213 MB used by the current database set
+Storage,1,microSD card,"At least 512 MB usable; FAT32; 1 GB or larger recommended",Yes,"Current data uses approximately 213 MB; 8 GB was tested but is not required"
 Power,1,USB data cable,Connector matching the CYD,Yes,Must support data for programming
 Power,1,Regulated 5 V USB supply,Suitable for ESP32 TFT GPS and SD peaks,Yes,Marginal supplies can cause resets and SD errors
 Interconnect,5,Insulated hookup wires,Fine electronics wire,Yes,"3.3 V; GND; TX; PPS; N/F"
