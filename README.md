@@ -76,7 +76,7 @@ ESP32 Arduino Core 3.3.11.
 - Fixed-width seven-segment time rendering without shifting digits.
 - Cached date and AM/PM fields to avoid once-per-second flicker.
 - Dark and light display themes.
-- Red/black Night Mode with `AUTO`, `ON`, and `OFF` choices.
+- Red/black Night Vision Mode with `AUTO`, `ON`, and `OFF` choices.
 - AUTO Night Mode uses the CYD R21 ambient-light sensor with hysteresis and a
   five-confirmation filter; saved start/end times remain the invalid-sensor
   fallback.
