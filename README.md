@@ -2,16 +2,33 @@
 
 ![Offline GPS Ham Clock showing UTC, local time, Maidenhead locator, location, and GPS status](images/gps-clock-lead-dark-theme.jpg)
 
-An internet-independent UTC and local-time clock built around the inexpensive
-ESP32-2432S028 2.8-inch touchscreen board, commonly called the Cheap Yellow
-Display or CYD. A GPS/GNSS receiver supplies UTC, position, altitude, satellite
-count, and a one-pulse-per-second timing signal. Large offline databases on the
-microSD card convert the current coordinates into civil time, daylight-saving
-rules, a nearby place name, a Maidenhead locator, and named marine geography.
+Hi, and welcome to my UTC/Local clock project. I've been wanting a simple
+UTC/local clock for my HAM radio station for a while, and when I stumbled across
+the CYD while doom-scrolling one night, I decided to build my own. "Simple"
+transformed into full-function OVERKILL, as these things tend to do, and
+voilà—the **Self-Setting UTC/Local Time Offline GPS Ham Clock** was born!
 
-The clock was designed as a portable reference for amateur-radio operating, but
-it is equally useful anywhere an accurate UTC/local display must work without
-Wi-Fi, NTP, cellular service, cloud APIs, or online geocoding.
+It's a UTC and local-time clock built around the inexpensive ESP32-2432S028
+2.8-inch touchscreen board, commonly called the Cheap Yellow Display or CYD. A
+GPS/GNSS receiver supplies UTC, position, altitude, satellite count, and a
+one-pulse-per-second timing signal. It has offline databases to convert the
+current coordinates into civil time, daylight-saving rules, nearby place names,
+a Maidenhead locator, and named marine geography if you just happen to be
+offshore 😉. It has a built-in alarm clock, as well as dark, light, and
+night-vision display modes.
+
+The clock was designed to live on the desk of my QTH, but also to be portable
+for POTA activations. That said, if HAM radio is not your thing, it would be
+useful anywhere an accurate UTC/local and GPS display is needed without access
+to Wi-Fi, NTP, cellular service, cloud APIs, or online geocoding.
+
+It would make me happy if others built one for themselves or used it as a
+starting point for their own projects. If you do, let me know how it goes!
+
+73,
+
+Pete  
+W6PAN
 
 ## Current release
 
