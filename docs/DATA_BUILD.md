@@ -37,8 +37,6 @@ licenses before redistribution:
 - IANA timezone rules supplied through Python `zoneinfo` and the pinned
   `tzdata` package.
 
-Do not commit these large source datasets to Git.
-
 ## Source directory layout
 
 Extract or rename files so the repository root contains:
@@ -113,20 +111,9 @@ places/places_index.bin  <- output/places_index.bin
 marine/marine.bin        <- output/marine.bin
 ```
 
-Copy `data/DATA_LICENSES_TEMPLATE.txt` to `DATA_LICENSES.txt`, update it with
-the actual dataset versions and retrieval dates, and include it with every data
-release. Also complete `docs/DATA_VERSION_TEMPLATE.txt` as `DATA_VERSION.txt`.
-
-## GitHub release packaging
-
-Do not commit generated `.bin` files. Package the seven SD files, completed
-license notice, and version record as a release asset such as:
-
-```text
-GPSClock_SD_Data_YYYY-MM.zip
-```
-
-The timezone boundary files remain an ODbL derivative database and the place
-files require GeoNames CC BY 4.0 attribution. See
-[Third-party notices](THIRD_PARTY_NOTICES.md).
+Copy `data/DATA_LICENSES_TEMPLATE.txt` to `DATA_LICENSES.txt` and complete
+`docs/DATA_VERSION_TEMPLATE.txt` as `DATA_VERSION.txt` so the card records the
+sources and versions used to build its databases. If you share the generated
+data with anyone else, preserve the applicable attribution and license notices.
+See [Third-party notices](THIRD_PARTY_NOTICES.md).
 
