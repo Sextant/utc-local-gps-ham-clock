@@ -124,6 +124,18 @@ ZIP as a GitHub Release asset or rebuild the databases using the supplied tools.
    [Firmware build](docs/FIRMWARE_BUILD.md).
 4. Follow the [User guide](docs/USER_GUIDE.md) for first fix and operation.
 
+## Future Features
+
+- A purpose-built enclosure for the CYD, GPS receiver, wiring, and future power
+  components, while retaining access to USB, microSD, and the R21 light sensor.
+- Rechargeable battery operation for portable and backup use.
+- A compatible charging and power-management board for safely charging the
+  battery and powering the clock.
+
+These are planned enhancements and are not part of the tested v12 reference
+build. The battery type, charging board, protection, power-path arrangement,
+runtime, and enclosure design still need to be selected and validated.
+
 ## Project photos
 
 | View | Photo |
