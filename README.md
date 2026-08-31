@@ -2,10 +2,9 @@
 
 ![Offline GPS Ham Clock showing UTC, local time, Maidenhead locator, location, and GPS status](images/gps-clock-lead-dark-theme.jpg)
 
-An internet-independent, GPS-synchronized UTC and local-time clock for the
-ESP32-2432S028 Cheap Yellow Display (CYD). It automatically determines the
-worldwide civil time zone and daylight-saving rules, displays a Maidenhead grid
-locator and nearby place name, and works without Wi-Fi, NTP, cellular service,
+GPS-synchronized UTC and local-time clock for the ESP32-2432S028 Cheap Yellow Display (CYD). 
+It automatically determines the worldwide civil time zone and daylight-saving rules, displays
+a Maidenhead grid locator and nearby place name, and works without Wi-Fi, NTP, cellular service,
 cloud APIs, or online geocoding.
 
 [Download GPSClock_v12](https://github.com/Sextant/utc-local-gps-ham-clock/releases/latest)
