@@ -2,6 +2,17 @@
 
 ![Offline GPS Ham Clock showing UTC, local time, Maidenhead locator, location, and GPS status](images/gps-clock-lead-dark-theme.jpg)
 
+An internet-independent, GPS-synchronized UTC and local-time clock for the
+ESP32-2432S028 Cheap Yellow Display (CYD). It automatically determines the
+worldwide civil time zone and daylight-saving rules, displays a Maidenhead grid
+locator and nearby place name, and works without Wi-Fi, NTP, cellular service,
+cloud APIs, or online geocoding.
+
+[Download GPSClock_v12](https://github.com/Sextant/utc-local-gps-ham-clock/releases/latest)
+· [Hardware build](docs/HARDWARE_BUILD.md)
+· [Firmware build](docs/FIRMWARE_BUILD.md)
+· [Bill of materials](docs/BOM.md)
+
 Hi, and welcome to my UTC/Local clock project. I've been wanting a simple
 UTC/local clock for my HAM radio station for a while, and when I stumbled across
 the CYD while doom-scrolling one night, I decided to build my own. "Simple"
@@ -32,9 +43,8 @@ W6PAN
 
 ## Current release
 
-**`GPSClock_v12`** is the first public release
-candidate. It has been compiled and hardware-tested on an ESP32-2432S028 using
-ESP32 Arduino Core 3.3.11.
+**`GPSClock_v12`** is the first public release. It has been compiled and
+hardware-tested on an ESP32-2432S028 using ESP32 Arduino Core 3.3.11.
 
 ## Features
 
@@ -144,6 +154,37 @@ supplied database-building tools.
 3. Configure and upload the firmware using
    [Firmware build](docs/FIRMWARE_BUILD.md).
 4. Follow the [User guide](docs/USER_GUIDE.md) for first fix and operation.
+
+## Frequently Asked Questions
+
+### Does the clock require Wi-Fi or an internet connection?
+
+No. GPS supplies UTC time and position, while the microSD card supplies the
+offline time-zone, daylight-saving, place-name, and marine-geography data. The
+clock does not require Wi-Fi, NTP, cellular service, or cloud APIs.
+
+### Does it automatically determine local time and daylight saving time?
+
+Yes. The firmware uses GPS coordinates to select the local civil time zone and
+applies the matching offline IANA time-zone rules, including daylight-saving
+transitions. A nautical UTC-offset fallback is used outside mapped civil zones.
+
+### Can it display UTC and local time together?
+
+Yes. UTC and local time are displayed simultaneously, and local time can use
+either 12-hour or 24-hour format.
+
+### Which ESP32 display board does the project use?
+
+The tested build uses the 2.8-inch ESP32-2432S028 resistive-touch board,
+commonly called the Cheap Yellow Display or CYD, with an external GP-02
+GPS/GNSS receiver.
+
+### Is the clock suitable for portable and POTA operation?
+
+The current USB-powered build can be used as a portable UTC/local and GPS
+reference for POTA and other field operations. A dedicated enclosure, battery,
+and charging system are planned but are not part of the tested v12 build.
 
 ## Future Features
 
